@@ -34,25 +34,8 @@ Everything is lightweight and can run in any standard MySQL setup.
 ## Queries For Exploration
 
 ### List Users and their roles
-mysql> SELECT u.username, u.email, r.role_name
-    -> FROM users u
-    -> LEFT JOIN userroles ur ON u.user_id = ur.user_id
-    -> LEFT JOIN roles r ON ur.role_id = r.role_id;
-+------------+------------------------+-----------+
-| username   | email                  | role_name |
-+------------+------------------------+-----------+
-| jdoe       | jdoe@example.com       | Admin     |
-| asmith     | asmith@example.com     | Manager   |
-| mnguyen    | mnguyen@example.com    | Analyst   |
-| kpatel     | kpatel@example.com     | Support   |
-| rlopez     | rlopez@example.com     | Intern    |
-| tjackson   | tjackson@example.com   | Manager   |
-| swhite     | swhite@example.com     | Analyst   |
-| bkim       | bkim@example.com       | Support   |
-| dclark     | dclark@example.com     | Intern    |
-| ahernandez | ahernandez@example.com | Analyst   |
-+------------+------------------------+-----------+
-10 rows in set (0.00 sec)
+<img width="486" height="316" alt="image" src="https://github.com/user-attachments/assets/cf73b27a-6392-4232-90b7-c95b886254f7" />
+
 
 ### Show each role with its permissions
 mysql> SELECT r.role_name, p.permission_name
