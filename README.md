@@ -1,5 +1,5 @@
 # User Access Control Database
-Simple User Access Database to manage access for an IT system. This system models a secure relational structure that tracks:
+Simple User Access Database to simulate full access control system. This system models a secure relational structure that tracks:
 - IT users
 - Assigned Roles
 - Access permissions
