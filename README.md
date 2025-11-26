@@ -24,6 +24,7 @@ Database Schema follows best relational practices
 - Access logs
 - Role Permissions
 ## ERD Diagram
+![ERD Diagram](https://github.com/user-attachments/assets/785722f9-c256-4e37-8042-ccf5dbd3530c)
 
 
 ## Queries For Exploration
