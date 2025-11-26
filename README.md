@@ -1,36 +1,28 @@
 # User Access Control Database
+Simple User Access Database to manage access for an IT system. This system models a secure relational structure that tracks:
+- IT users
+- Assigned Roles
+- Access permissions
+- Logged access attempts and events
+Goal of the project is designing a database that can answer real security and administrative questions through SQL queries.
 
-This project is a small role-based access control (RBAC) system built in MySQL. It includes tables for users, roles, permissions, role-permission assignments, user-role mappings, and access logs. The data is synthetic and was generated with the help of AI. The goal is to show that I can design a relational structure, populate it with realistic data, and analyze it using SQL.
+## Tech Stack
+- MySQL
+- ERD Modeling Tools
+- Synthetic AI Generated Dataset
 
-## What’s Included
-Core Tables
-
-users – basic user information
-
-roles – role names such as Admin or Manager
-
-permissions – actions that can be granted
-
-userroles – links users to one or more roles
-
-rolepermissions – defines which permissions belong to each role
-
-accesslogs – activity records for auditing
-
-These tables work together to model a simple identity and access management system.
-
-## Setup
-
-Create a MySQL database
-
-Run the table creation script
-
-Insert the sample synthetic data
-
-Use the provided queries to explore and test the system
-
-Everything is lightweight and can run in any standard MySQL setup.
-
+## Database Features
+Database Schema follows best relational practices
+- Primary keys
+- Foreign keys
+- Junction Tables
+## Clean Entity Structure
+- Users
+- Roles
+- User_Roles
+- Permissions
+- Access logs
+- Role Permissions
 ## Queries For Exploration
 
 ### List Users and their roles
